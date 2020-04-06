@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4cf7b5b-e8d2-40a9-af58-bd046b2d3fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -154,6 +154,17 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1389" y="1437" key="ComposerInitDialogKey" timestamp="1586108843543">
       <screen x="919" y="1103" width="1440" height="828" />
@@ -187,10 +198,10 @@
       <screen x="919" y="1103" width="1440" height="829" />
     </state>
     <state x="1457" y="1447" key="NewPhpFileDialog/919.1103.1440.829/0.23.1920.1057@919.1103.1440.829" timestamp="1586102346727" />
-    <state x="1140" y="1156" key="SettingsEditor" timestamp="1586192670908">
+    <state x="1140" y="1156" key="SettingsEditor" timestamp="1586198591902">
       <screen x="919" y="1103" width="1440" height="827" />
     </state>
-    <state x="1140" y="1156" key="SettingsEditor/919.1103.1440.827/0.23.1920.1057@919.1103.1440.827" timestamp="1586192670908" />
+    <state x="1140" y="1156" key="SettingsEditor/919.1103.1440.827/0.23.1920.1057@919.1103.1440.827" timestamp="1586198591902" />
     <state x="1140" y="1156" key="SettingsEditor/919.1103.1440.828/0.23.1920.1057@919.1103.1440.828" timestamp="1586109848903" />
     <state x="1033" y="1250" width="1213" height="553" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586192012086">
       <screen x="919" y="1103" width="1440" height="827" />
