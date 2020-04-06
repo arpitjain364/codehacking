@@ -25,7 +25,7 @@ class UsersRequest extends Request
     {
         return [
             //
-            'name' => 'required'
+
         ];
     }
 }
