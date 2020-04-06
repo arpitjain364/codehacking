@@ -6,7 +6,7 @@
     {!! Form::open(['action' => 'AdminUsersController@store', 'method' => 'post', 'files'=>true]) !!}
     	<div class="form-group">
             {!! Form::label('name', 'Name:') !!}
-            {!! Form::text('title', null, ['class' => 'form-control']) !!}
+            {!! Form::text('name', null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
             {!! Form::label('email', 'Email:') !!}
