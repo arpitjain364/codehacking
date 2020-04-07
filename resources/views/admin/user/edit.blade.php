@@ -39,7 +39,8 @@
         {!! Form::close() !!}
     </div>
 
-
-    @include('includes.form_error')
+    <div class="roe">
+        @include('includes.form_error')
+    </div>
 
 @endsection
