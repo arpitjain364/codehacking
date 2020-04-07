@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4cf7b5b-e8d2-40a9-af58-bd046b2d3fa6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
-    </list>
+    <list default="true" id="a4cf7b5b-e8d2-40a9-af58-bd046b2d3fa6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,11 +216,12 @@
       <screen x="919" y="1103" width="1440" height="827" />
     </state>
     <state x="1019" y="1203" width="1240" height="627" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/919.1103.1440.827/0.23.1920.1057@919.1103.1440.827" timestamp="1586191832790" />
-    <state x="529" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1586190360658">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="1316" y="1349" key="com.intellij.ide.util.TipDialog" timestamp="1586275641763">
+      <screen x="919" y="1103" width="1440" height="827" />
     </state>
     <state x="1316" y="1348" key="com.intellij.ide.util.TipDialog/919.1103.1440.826/0.23.1920.1057@919.1103.1440.826" timestamp="1586153149877" />
     <state x="529" y="337" key="com.intellij.ide.util.TipDialog/919.1103.1440.827/0.23.1920.1057@0.23.1920.1057" timestamp="1586190360658" />
+    <state x="1316" y="1349" key="com.intellij.ide.util.TipDialog/919.1103.1440.827/0.23.1920.1057@919.1103.1440.827" timestamp="1586275641763" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586194122512">
       <screen x="919" y="1103" width="1440" height="828" />
     </state>
