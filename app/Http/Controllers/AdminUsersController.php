@@ -43,8 +43,8 @@ class AdminUsersController extends Controller
      */
     public function store(UsersRequest $request)
     {
-        if($request->passowrd=='') {
-            $input = $request->all();
+        if(trim($request->passowrd)=='') {
+            $input = $request->except('password');
         } else{
             $input = $request->all();
             $input['password'] = bcrypt($request->password);
@@ -95,7 +95,12 @@ class AdminUsersController extends Controller
     public function update(UsersEditRequest $request, $id)
     {
         $user = User::find($id);
-        $input = $request->all();
+        if(trim($request->passowrd)=='') {
+            $input = $request->except('password');
+        } else{
+            $input = $request->all();
+            $input['password'] = bcrypt($request->password);
+        }
 
         if($file = $request->file('photo_id')){
             $name = time().$file->getClientOriginalName();
