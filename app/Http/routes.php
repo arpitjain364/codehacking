@@ -19,8 +19,8 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('admin', function () {
-    return view('admin.user.index');
+Route::get('admin', function (){
+    return redirect('/admin/users');
 });
 
 Route::group(['middleware' => 'admin'], function () {
