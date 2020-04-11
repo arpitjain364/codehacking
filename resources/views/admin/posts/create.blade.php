@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('content');
+@section('content')
 <h1>Create Post</h1>
     {!! Form::open(['action' => 'AdminPostsController@store', 'method' => 'POST']) !!}
     	<div class="form-group">
@@ -23,4 +23,5 @@
             {!! Form::submit('Create Post', ['class' => 'btn btn-primary']) !!}
         </div>
     {!! Form::close() !!}
+    @include('includes.form_error')
 @stop
