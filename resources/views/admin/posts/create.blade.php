@@ -2,14 +2,14 @@
 
 @section('content')
 <h1>Create Post</h1>
-    {!! Form::open(['action' => 'AdminPostsController@store', 'method' => 'POST']) !!}
+    {!! Form::open(['action' => 'AdminPostsController@store', 'method' => 'POST', 'files'=>'true']) !!}
     	<div class="form-group">
             {!! Form::label('title', 'Title') !!}
-            {!! Form::text('titile', null, ['class' => 'form-control']) !!}
+            {!! Form::text('title', null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
             {!! Form::label('category_id', 'Category') !!}
-            {!! Form::select('category_id', array(''=>'option'),null, ['class' => 'form-control']) !!}
+            {!! Form::select('category_id', array('1'=>'PHP'),null, ['class' => 'form-control']) !!}
         </div>
         <div class="form-group">
             {!! Form::label('photo_id', 'Photo') !!}

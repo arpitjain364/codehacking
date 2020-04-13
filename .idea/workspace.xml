@@ -4,8 +4,11 @@
     <list default="true" id="bf60a19d-1f8a-4391-9565-d8dba447843b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UsersEditRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UsersEditRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PostCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PostCreateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +40,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586588814286">
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586695977649">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/-1440.107.1440.877/1920.23.1920.1057/0.23.1920.991@0.23.1920.991" timestamp="1586588814286" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/-1440.107.1440.877/1920.23.1920.1057/0.23.1920.991@0.23.1920.991" timestamp="1586695977649" />
   </component>
 </project>
