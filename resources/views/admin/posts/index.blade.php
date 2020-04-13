@@ -23,9 +23,9 @@
                 <tr>
                     <td>{{$post->id}}</td>
                     <td>{{$post->user->name}}</td>
-                    <td>{{$post->category_id}}</td>
+                    <td>{{$post->category ? $post->category->name : "No cate"}}</td>
                     <td><img height="40" width="40" src="{{$post->photo ? $post->photo->file : "http://placeholder.com/400"}}"></td>
-                    <td>{{$post->title}}</td>
+                    <td><a href="{{route('admin.posts.edit', $post->id)}}">{{$post->title}}</a></td>
                     <td>{{$post->body}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
                     <td>{{$post->updated_at->diffForHumans()}}</td>
